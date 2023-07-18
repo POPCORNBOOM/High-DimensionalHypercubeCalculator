@@ -3,6 +3,8 @@ A calculator that can calculate the number of low-dimensional hypercubes in a hi
 
 这是WPF版
 
+[点击下载Windows版本](https://github.com/POPCORNBOOM/High-DimensionalHypercubeCalculator/releases/tag/Publish)
+
 ---
 
 * 定义
