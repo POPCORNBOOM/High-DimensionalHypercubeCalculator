@@ -1,0 +1,51 @@
+﻿<Window x:Class="HDCC_wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HDCC_wpf"
+        mc:Ignorable="d" ResizeMode="NoResize"
+        Title="HDCC" Height="500" Width="450">
+    <ScrollViewer>
+        <Grid Background="FloralWhite">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border CornerRadius="10" Margin="10" BorderBrush="DarkGoldenrod" Padding="10" BorderThickness="3,3,3,3">
+                <TextBlock HorizontalAlignment="Center" Text="计算高维超立方体中含有低维超立方体个数" FontSize="18" FontWeight="Bold"/>
+            </Border>
+            <Border Margin="10" BorderBrush="DarkGoldenrod" Grid.Row="1" CornerRadius="10" HorizontalAlignment="Stretch" BorderThickness="3,3,3,3">
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock Margin="10" HorizontalAlignment="Center" Text="在" FontSize="24"/>
+                    <StackPanel  Margin="10" HorizontalAlignment="Center" Orientation="Horizontal">
+                        <TextBox TextChanged="h_TextChanged" Height="25" Width="50" x:Name="h"/>
+                        <TextBlock HorizontalAlignment="Center" Text="维超立方体（M）" FontSize="18"/>
+                    </StackPanel>
+                    <TextBlock Margin="10" HorizontalAlignment="Center" Text="中含有" FontSize="24"/>
+                    <StackPanel Margin="10" HorizontalAlignment="Center" Orientation="Horizontal">
+                        <TextBox TextChanged="l_TextChanged" Height="25" Width="50" x:Name="l"/>
+                        <TextBlock HorizontalAlignment="Center" Text="维超立方体（N）" FontSize="18"/>
+                    </StackPanel>
+                    <TextBlock Margin="10" HorizontalAlignment="Center" Text="的个数是" FontSize="24"/>
+
+                </StackPanel>
+
+            </Border>
+            <Border CornerRadius="10" Margin="10" BorderBrush="DarkGoldenrod" Grid.Row="2" BorderThickness="3,3,3,3">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="result" Text="在上方键入数字开始" FontSize="36" FontFamily="Arial Black"/>
+            </Border>
+            <Border CornerRadius="10" Margin="10" BorderBrush="DarkGoldenrod" Grid.Row="3" BorderThickness="3,3,3,3">
+                <StackPanel>
+                    <TextBlock HorizontalAlignment="Center" Margin="10" Text="简略公式↓" FontSize="24"/>
+                    <Image Source="/01.png" Stretch="UniformToFill"/>
+                    <TextBlock HorizontalAlignment="Center" Margin="10" Text="M、N∈N*，M≥N" FontSize="24"/>
+                    <TextBlock HorizontalAlignment="Center" Margin="10" Text="由于乘方运算，请确保MN差值不要过大，否" FontStyle="Italic"/>
+                    <TextBlock HorizontalAlignment="Center" Margin="10" Text="则结果可能过大导致超出BigInteger范围" FontStyle="Italic"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+    </ScrollViewer>
+</Window>

@@ -1,0 +1,16 @@
+R:\Projects\HDCC wpf\bin\Debug\HDCC wpf.exe.config
+R:\Projects\HDCC wpf\bin\Debug\HDCC wpf.exe
+R:\Projects\HDCC wpf\bin\Debug\HDCC wpf.pdb
+R:\Projects\HDCC wpf\obj\Debug\HDCC wpf.csproj.AssemblyReference.cache
+R:\Projects\HDCC wpf\obj\Debug\HDCC wpf.csproj.SuggestedBindingRedirects.cache
+R:\Projects\HDCC wpf\obj\Debug\MainWindow.g.cs
+R:\Projects\HDCC wpf\obj\Debug\App.g.cs
+R:\Projects\HDCC wpf\obj\Debug\HDCC wpf_MarkupCompile.cache
+R:\Projects\HDCC wpf\obj\Debug\HDCC wpf_MarkupCompile.lref
+R:\Projects\HDCC wpf\obj\Debug\MainWindow.baml
+R:\Projects\HDCC wpf\obj\Debug\HDCC wpf.g.resources
+R:\Projects\HDCC wpf\obj\Debug\HDCC_wpf.Properties.Resources.resources
+R:\Projects\HDCC wpf\obj\Debug\HDCC wpf.csproj.GenerateResource.cache
+R:\Projects\HDCC wpf\obj\Debug\HDCC wpf.csproj.CoreCompileInputs.cache
+R:\Projects\HDCC wpf\obj\Debug\HDCC wpf.exe
+R:\Projects\HDCC wpf\obj\Debug\HDCC wpf.pdb
